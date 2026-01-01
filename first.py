@@ -9,16 +9,15 @@ a="welcome to mashup stack"
 print (len(a))
 
 
-paragraph = "This is a sample paragraph for string indexing"
+paragraph = "This is a sample paragraph for string indexing and slicing." \
+" It contains multiple sentences to demonstrate various string operations."\
+"the python course is very simple"\
+" Let's explore indexing and slicing in Python strings"
 print("First character:", paragraph[0])
 print("Last character:", paragraph[-1])
 
 
-print("Preview (first 50 characters):", paragraph[:50])
-print("From index 10 to 30:", paragraph[10:31])
-print("From start to index 20:", paragraph[:21])
-print("From index 15 to end:", paragraph[15:])
-
+print("slicing:",paragraph[:50])
 
 text = "python"
 print(text.upper())
@@ -35,6 +34,8 @@ print(text.strip())
 a = "Mashup, Stack!"
 b = a.split(",")
 print(b)
+
+print("checking:","course" in paragraph)
 
 
 course_description = "Learn Python programming from scratch."
